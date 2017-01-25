@@ -25,7 +25,19 @@ img {
     padding: 2px 16px;
 }
 
-
+#wrapper {
+    border: 1px solid blue;
+}
+#div1 {
+    display: inline-block;
+    width:120px;
+    height:120px;
+}
+#div2 {
+    display: inline-block;
+    width:160px;
+    height:160px;
+}
 
 
 h1{font: 400 58px/60px 'Bree Serif', Georgia, serif; color:#6a6969;}
