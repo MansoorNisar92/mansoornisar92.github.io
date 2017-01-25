@@ -26,17 +26,17 @@ img {
 }
 
 #wrapper {
-    border: 1px solid blue;
+    
 }
 #div1 {
     display: inline-block;
-    width:120px;
-    height:120px;
+    width:50px;
+    height:50px;
 }
 #div2 {
     display: inline-block;
-    width:160px;
-    height:160px;
+    width:50px;
+    height:60px;
 }
 
 
