@@ -4,6 +4,26 @@ body{
 	font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
 	color:#6a6969;
 }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
 h1{font: 400 58px/60px 'Bree Serif', Georgia, serif; color:#6a6969;}
 h2{font: 400 18px/22px 'Bree Serif', Georgia, serif; color:#6a6969;}
 h3{font: 400 14px/16px 'Bree Serif', Georgia, serif; color:#6a6969;}
