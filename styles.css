@@ -25,20 +25,6 @@ img {
     padding: 2px 16px;
 }
 
-#wrapper {
-    width: 500px;
-    border: 1px solid black;
-    overflow: hidden; /* add this to contain floated children */
-}
-#firstCard {
-    width: 300px;
-    float:left; /* add this */
-    border: 1px solid red;
-}
-#secondCard {
-    border: 1px solid green;
-    float: left; /* add this */
-}
 
 
 
