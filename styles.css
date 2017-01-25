@@ -25,6 +25,23 @@ img {
     padding: 2px 16px;
 }
 
+#wrapper {
+    width: 500px;
+    border: 1px solid black;
+    overflow: hidden; /* add this to contain floated children */
+}
+#firstCard {
+    width: 300px;
+    float:left; /* add this */
+    border: 1px solid red;
+}
+#secondCard {
+    border: 1px solid green;
+    float: left; /* add this */
+}
+
+
+
 h1{font: 400 58px/60px 'Bree Serif', Georgia, serif; color:#6a6969;}
 h2{font: 400 18px/22px 'Bree Serif', Georgia, serif; color:#6a6969;}
 h3{font: 400 14px/16px 'Bree Serif', Georgia, serif; color:#6a6969;}
