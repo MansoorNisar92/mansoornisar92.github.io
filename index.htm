@@ -3,19 +3,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link id="Link2" rel="icon" href="images/mansoor92.jpg" type="image/ico"/>
-<script>
-$(document).ready(function(){
-    $(document).ajaxStart(function(){
-        $("#wait").css("display", "block");
-    });
-    $(document).ajaxComplete(function(){
-        $("#wait").css("display", "none");
-    });
-    $("button").click(function(){
-        $("#txt").load("demo_ajax_load.asp");
-    });
-});
-</script>
 	
 <title>Mansoor Nisar</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
@@ -30,6 +17,7 @@ $(document).ready(function(){
 </head>
 
 <body>
+	<img src="images/ajax_loader.gif">
 <div id="header">
   <div id="logo"><a href="#"><img src="images/logo.png"></a></div>
   <ul id="main-menu">
